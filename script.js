@@ -12,13 +12,14 @@ const closeTestBtn = document.getElementById("closetestbutn")
 const closeTestBtn2 = document.getElementById("closetestbutn2")
 const closeTestBtn3 = document.getElementById("closetestbutn3")
 
+
+//Shows the modal that person choosed, and hides the others(for all three)
 function getMessage(){
         hiddenMess3.style.display = "none"
         hiddenMess2.style.display = "none"
         hiddenMess.style.display = "initial"
         console.log("Message 1 displayed")
 }
-
 function getMessage2(){
     hiddenMess3.style.display = "none"
     hiddenMess.style.display = "none"
@@ -32,7 +33,7 @@ function getMessage3(){
     console.log("Message 3 displayed")
 }
 
-
+//Close the modal(for all three)
 function closeMess(){
     hiddenMess.style.display = "none"
     console.log("Mess 1 closed")
